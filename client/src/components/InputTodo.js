@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 
 const InputTodo = () => {
   const [description, setDescription] = useState("");
-
+  //if you are using await the function should be defined as async
   const onSubmitForm = async (e) => {
     e.preventDefault();
     try {
